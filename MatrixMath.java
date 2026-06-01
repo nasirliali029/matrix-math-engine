@@ -13,7 +13,7 @@ public class MatrixMath{
         if(isValidSquareMatrix(matrix)){
             double det=determinant(matrix);
             System.out.println("\nDeterminant: " + det);
-        } 
+        }
         else{
             System.out.println("\nError: Cannot calculate determinant. The matrix must be square (NxN) and cannot be empty.");
         }
