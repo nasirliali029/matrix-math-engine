@@ -51,7 +51,7 @@ public class MatrixMath{
         double[][] subMatrix=new double[n-1][n-1];
         int r=0;
         for(int i=0;i<n;i++){
-            if(i==excludingRow){ 
+            if(i==excludingRow){
                 continue;
             }
             int c=0;
